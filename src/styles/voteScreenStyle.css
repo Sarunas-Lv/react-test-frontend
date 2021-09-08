@@ -1,0 +1,63 @@
+/* Common */
+h2 {
+  text-align: center;
+}
+/* container */
+.carsContainer {
+  height: 100%;
+  padding-bottom: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+/* card and event style */
+.teamCard,
+.clickedUp,
+.clickedDown {
+  width: 200px;
+  height: 370px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+.up,
+.down {
+  color: white;
+  font-weight: bold;
+  padding: 4px 7px;
+}
+.up {
+  background-color: rgb(132, 202, 26);
+}
+.up:active {
+  background-color: green;
+}
+.down {
+  background-color: red;
+}
+.down:active {
+  background-color: crimson;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+.clickedUp,
+.clickedDown {
+  pointer-events: none;
+  border-radius: 15px;
+}
+.clickedUp {
+  border: 4px solid rgb(132, 202, 26);
+  background-color: rgb(107, 167, 107);
+}
+.clickedDown {
+  border: 4px solid red;
+  background-color: rgb(228, 133, 152);
+}
