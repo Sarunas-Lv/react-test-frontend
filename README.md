@@ -7,7 +7,7 @@
 
 ## General info
 
-This is a frontend for basic project of using API if you want to be able to run it use backend from https://github.com/Sarunas-Lv/react-test-backend following setup instructions.
+This is a frontend for one of the react tests. If you want to be able to run it use backend from https://github.com/Sarunas-Lv/react-test-backend following setup instructions.
 
 ## Technologies
 
